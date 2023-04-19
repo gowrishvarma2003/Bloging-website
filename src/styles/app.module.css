@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.signup_page{
+    background-image: url("/background.jpg");
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.signup{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_background{
+    background-color: rgb(188, 211, 204);
+    padding: 80px 50px 50px 50px;
+    border-radius: 10px;
+}
+
+.input{
+    padding: 10px 50px 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.signup h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    /* padding-bottom: 5px; */
+}
+
+.signup P{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+
+.button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 70px;
+    background-color: rgb(88, 88, 250);
+    color: white;
+    cursor: pointer;
+}
+
+.signup_background h2{
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.password{
+    padding-left: 60px;
+    padding-top: 15px !important;
+}
+
+.password a{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.forgetpassword{
+    font-size: 18px !important;
+    padding-bottom: 10px;
+}
+
+.inputotp{
+    padding: 10px 50px 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.oauth{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 33px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0;
+    
+}
+
+.search{
+    padding: 10px 40px 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.buttonsearch{
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: rgb(88, 88, 250);
+    color: white;
+    cursor: pointer;
+}
+
+.newblog{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* padding-left: 500px; */
+    background-color: antiquewhite;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blogcontent{
+    height:fit-content;
+    background-color: rgb(219, 219, 219);
+    padding: 50px 25px 100px 25px;
+    border-radius: 10px;
+}
+
+.blogcontent button{
+    margin-left: 370px;
+    margin-top: 25px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(28, 28, 223);
+    color: white;
+}
+
+.blogtitle{
+    margin-bottom: 50px;
+}
+
+.blogtitle input{
+    /* padding: 10px 250px 10px 30px; */
+    height: 40px;
+    width: 450px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.blogbody textarea{
+    height: 250px;
+    width: 450px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
+.blogbody textarea:focus{
+    outline: none;
+}
+
+.upload{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(28, 28, 223);
+    color: white;
+}
